@@ -1,78 +1,100 @@
-body{
-    margin: 0;
-    font-family: raleway, helvetica, san-serif;
-    font-size: 20px;
-    line-height: 150%;
-}
+/* body styles */
 
-header{
-    background-color: #498BC4;
-    text-align: center;
-    padding-top: 64px;
-    padding-bottom: 16px;
-}
+    body{
+        margin: 0;
+        font-family: raleway, helvetica, san-serif;
+        font-size: 20px;
+        line-height: 150%;
+    }
 
-h1, h2{
-    font-family: 'Lato', sans-serif;
-}
+/* header styles */
 
-header h1{
-    color: #f8f8f8;
-    font-size: 64px;
+    header{
+        background-color: #498BC4;
+        text-align: center;
+        padding-top: 64px;
+        padding-bottom: 16px;
+    }
 
-}
+    h1, h2{
+        font-family: 'Lato', sans-serif;
+    }
 
-header img{
-    border-radius: 162px;
-    width: 300px;
-    border: 12px solid #f8f8f8;
-}
+    header h1{
+        color: #f8f8f8;
+        font-size: 64px;
 
-main{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 64px 20px 20px 20px;
-}
+    }
 
-main img{
-    max-width: 100%;
-}
+    header img{
+        border-radius: 162px;
+        width: 300px;
+        border: 12px solid #f8f8f8;
+    }
 
-h2{
-    font-size: 35px;
-    color: #222222;
-}
+/* main styles */
 
-a{
-    color: #222222
-}
+    main{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 64px 20px 20px 20px;
+    }
 
-a:hover{
-    color: #498BC4;
-}
+    main img{
+        max-width: 100%;
+    }
 
-footer{
-    background-color: #498BC4;
-    text-align: center;
-    color: white;
-    padding: 50px;
-}
+    h2{
+        font-size: 35px;
+        color: #222222;
+    }
 
-footer p{
-    margin: 0;
-}
+    a{
+        color: #222222
+    }
 
-footer a{
-    color: white;
-}
+    a:hover{
+        color: #498BC4;
+    }
 
-footer a:hover{
-    color: #222222;
-}
+/* footer styles */
 
-p.caption{
-    color: #999999;
-    font-style: italic;
-    margin-top: 0;
-    font-size: 16px;
-}
+    footer{
+        background-color: #498BC4;
+        text-align: center;
+        color: white;
+        padding: 50px;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+    footer a{
+        color: white;
+    }
+
+    footer a:hover{
+        color: #222222;
+    }
+
+
+    div{
+        margin: 0 auto;
+    }
+
+    div img{
+        width: 150px;
+        border-radius: 75px;
+    }
+
+
+
+/* caption styles */
+
+    p.caption{
+        color: #999999;
+        font-style: italic;
+        margin-top: 0;
+        font-size: 16px;
+    }
