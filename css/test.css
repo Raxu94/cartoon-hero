@@ -1,0 +1,35 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    font-size: 72px;
+    color: darkgreen;
+    font-family: poppins;
+}   
+
+h2{
+    color:lightsalmon;
+    font-size: 48px;
+    font-family: poppins;
+}
+
+.big{
+    font-size: 100px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.big.uppercase{
+    color: navy;
+}
+
+span{
+    color:violet;
+}
+
+h1 span{
+    font-family: roboto;
+    color: tomato;
+}
